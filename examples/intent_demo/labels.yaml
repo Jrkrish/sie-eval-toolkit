@@ -1,0 +1,20 @@
+# Demo labels for the harness only (made-up messages, not real data, not independent of the engines).
+# Business messages a small Indian supplier might get, mixed English / Hinglish.
+task: "intent of a business message (demo)"
+items:
+  - {id: m01, text: "Please send 20 boxes of Maggi tomorrow morning.", label: order}
+  - {id: m02, text: "bhaiya 10 peti parle-g bhej do kal tak", label: order}
+  - {id: m03, text: "Need 5 bags of sugar and 2 tins of oil this week.", label: order}
+  - {id: m04, text: "kal 50 kilo atta chahiye, gaadi bhej dena", label: order}
+  - {id: m05, text: "Payment of Rs 12,000 sent via UPI, please check.", label: payment}
+  - {id: m06, text: "paisa somvaar ko transfer kar dunga, pakka", label: payment}
+  - {id: m07, text: "Can I clear the old dues next month?", label: payment}
+  - {id: m08, text: "aapka 8000 ka cheque kal jama karwa diya", label: payment}
+  - {id: m09, text: "Last delivery had 3 broken packets, very bad.", label: complaint}
+  - {id: m10, text: "maal kharab nikla, aadha geela tha", label: complaint}
+  - {id: m11, text: "order adhura aaya, do carton kam nikle", label: complaint}
+  - {id: m12, text: "The driver came two days late again.", label: complaint}
+  - {id: m13, text: "Happy Diwali to you and your family!", label: other}
+  - {id: m14, text: "shop aaj band rahegi, kal baat karte hain", label: other}
+  - {id: m15, text: "Is your godown open on Sunday?", label: other}
+  - {id: m16, text: "naya price list bhej dijiye please", label: other}

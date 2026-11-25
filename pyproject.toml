@@ -1,0 +1,14 @@
+[project]
+name = "sie-eval-toolkit"
+version = "0.1.0"
+description = "Small SIE helper (cache, usage log, credit cap) and a baseline-vs-SIE evaluation harness"
+license = "Apache-2.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "sie-sdk>=0.11.1",
+    "python-dotenv>=1.2.4",
+    "pyyaml>=6.0.3",
+]
+
+[tool.uv]
+package = false
